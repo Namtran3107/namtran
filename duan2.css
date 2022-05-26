@@ -1,0 +1,43 @@
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+/* SLIDEBAR ************************* */
+#slidebar-travel-all{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 62%;
+    overflow-y: auto;
+    z-index: 99;
+}
+.slidebar-travel-boss-background{
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+}
+.ti-close{
+    color: white;
+    font-size: 12px;
+}
+.ti-close::before{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.slidebar-travel-item-header-son{
+    color: white;
+    font-size: 23px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.slidebar-travel-menu-text-son{
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}

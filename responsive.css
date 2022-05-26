@@ -1,0 +1,268 @@
+@media (max-width: 1023px) {
+    .header-travel-list-all{
+        display: none;
+    }
+    #header-travel-all{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .space-travel-experience-video{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .view-all-package-prices{
+        flex-direction: column;
+        padding: 0 25px;
+    }
+    #space-travel-all{
+        max-width: 100%;
+        width: 100%;
+    }
+    .space-travel-all-package{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .services-travel-item-all{
+        display: block;
+    }
+    .sell-travel-body{
+        display: block;
+        width: 100%;
+    }
+    .space-travel-sell-list{
+        flex-direction: column;
+    }
+    .blogs-travel-list{
+        --colum: 1;
+    }
+    .package-prices-list{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+    .blogs-travel-body{
+        width: calc(100% - 50px);
+    }
+    .package-img-son{
+        height: auto;
+    }
+    #slider-travel-all{
+        height: 500px;
+    }
+    .slider-travel-list:nth-child(1), .slider-travel-list:nth-child(2){
+        display: none;
+    }
+    .sell-travel-body-list-all{
+        width: 100%;
+    }
+    .sell-travel-body-list{
+        padding: 0 20px;
+        background-color: white;
+    }
+    .travel-sell-off{
+        background-color: var(--primary-color);
+    }
+    .space-travel-sell-item{
+        width: calc(100% - 70px);
+        margin-left: 0;
+        align-content: center;
+        margin-top: 30px;
+    }
+    .space-travel-sell-img-selector{
+        height: 500px;
+    }
+    .space-travel-sell-img-2 {
+        background-position-x: -100px;
+    }
+    .footer-travel-list-son-mini{
+        flex-direction: column;
+    }
+    .footer-travel-list-recommend{
+        width: 100%;
+    }
+    .footer-travel-list-item{
+        flex-direction: column;
+    }
+    .footer-travel-list{
+        width: 100%;
+        max-width: calc(100% - 50px);
+    }
+    .footer-travel-body-background{
+        height: 1200px;
+    }
+    .space-travel-video-background{
+        width: 100%;
+    }
+    .services-travel-item{
+        width: calc(calc(100% / 1) - 40px);
+    }
+    .space-travel-sell-list{
+        width: auto;
+        align-content: center;
+        padding: 0 20px;
+    }
+    .slider-travel-list:last-child::before{
+        display: none;
+    }
+    .slider-travel-boss{
+        top: 85%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .slider-travel-list:last-child{
+        margin-left: 0;
+    }
+    .space-travel-video{
+        padding: 0 10px 20px;
+    }
+    .space-travel-experience {
+        padding: 0 10px 30px;
+    }
+    .space-travel-experience-item{
+        flex-wrap: wrap;
+    }
+    .space-travel-experience-item-son{
+        margin-right: 0;
+        width: 100%;
+    }
+    #services-travel-all{
+        margin-top: 50px;
+    }
+    .space-travel-experience-item-son:first-child{
+        margin-right: 0;
+    }
+    .list-services-son:nth-child(2){
+        font-size: 16px;
+    }
+    .travel-summer-sell{
+        margin: 0;
+    }
+    .travel-summer-sell:last-child{
+        margin: 0 auto;
+    }
+    .space-travel-where-son{
+        padding: 20px 20px;
+    }
+    .space-travel-where-recommend{
+        font-size: 16px;
+    }
+    .space-travel-where-sprices:last-child{
+        flex-direction: column;
+    }
+    .space-travel-where-money{
+        top: 10px;
+        text-align: left;
+    }
+    .space-travel-where-money-2{
+        top: 10px;
+        text-align: center;
+    }
+    .footer-travel-item-colum {
+        width: 100%;
+    }
+    .footer-travel-header{
+        padding-bottom: 35px;
+        padding-top: 25px;
+    }
+    .footer-travel-appear-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-travel-appear-item:first-child{
+        padding-bottom: 45px;
+    }
+    .blogs-travel-list{
+        flex-direction: column;
+    }
+    .blogs-travel-list-son {
+        width: 100%;
+    }
+    .services-travel-body{
+        width: auto;
+        padding: 0 20px;
+    }
+    .header-travel-all-taskbar{
+        display: block;
+    }
+}
+@media (max-width: 739px){
+    .slider-travel-list:last-child{
+        padding: 14px 30px;
+        font-size: 15px;
+        font-weight: 800;
+        letter-spacing: 0;  
+    }
+    #slider-travel-all{
+        height: 430px;
+        background-position-x: center;
+    }
+    .space-travel-all-son{
+        padding: 0 40px;
+    }
+    .space-travel-video-background{
+        background-position-x: center;
+    }
+    .services-travel-body{
+        width: auto;
+        padding: 0 60px;
+    }
+    .sell-travel-body{
+        width: auto;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .space-travel-sell-img-selector{
+        height: 154px;
+    }
+    .space-travel-sell-img-2{
+        background-position-x: 0;
+    }
+    .blogs-travel-item{
+        flex-direction: column;
+    }
+    .blogs-travel-item-img{
+        width: 100%;
+        height: 210px;
+    }
+    .blogs-travel-item-son{
+        width: 100%;
+    }
+    .blogs-travel-body{
+        width: auto;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .blogs-travel-item-reverse{
+        flex-direction: column-reverse;
+    }
+    .footer-travel-list{
+        max-width: calc(100% - 150px);
+        padding: 80px 0;
+    }
+    .footer-travel-body-background{
+        height: auto;
+    }
+    .footer-travel-recommend-son{
+        padding: 0;
+    }
+    .footer-travel-list-son-mini{
+        padding: 35px 47px 30px;
+    }
+    .footer-travel-logo > img{
+        width: 150px;
+    }
+    .footer-travel-list-item{
+        width: 100%;
+    }
+    .footer-travel-appear-item{
+        padding: 0 22px 0px;
+        text-align: center;
+        letter-spacing: 1px;
+        line-height: 11px;
+    }
+    .footer-travel-appear-list{
+        padding: 20px 0;
+    }
+}
